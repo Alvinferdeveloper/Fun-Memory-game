@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="index.js" type="module"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="tematics">
+        <h4 class="tematics__text">
+            Elige Una Categoria de Imagenes
+        </h4>
+        <div class="tematics__options">
+            <button name="futbol" class="tematic__button">Futbol</button>
+            <button name="pokemon" class="tematic__button">Pokemon</button>
+            <button 
+            name="dragonBall"class="tematic__button">Dragon Ball</button>
+            <button name="superHeroes"class="tematic__button">Super Heroes</button>
+        </div>
+    </div>
+    <div class="control">
+        <p>Presiona Para Iniciar</p>
+        <Button class="control__start"><i class='bx bx-play'></i>
+        </Button>
+        <p id="control__chronometer">00:00:00</p>
+    </div>
+    <Main class="main"> 
+    </Main>
+    <div class="rank">
+        <i class='bx bx-x icon icon--close'></i>
+        <div class="rank__tematic rank__tematic--futbol">
+            <p>Futbol</p>
+            <p>Mejor Tiempo: <label class="besttime">0</label></p>
+            <p>Peor Tiempo: <label class="worsttime">0</label></p>
+        </div>
+        <div class="rank__tematic rank__tematic--pokemon">
+            <p>Pokemon</p>
+            <p>Mejor Tiempo: <label class="besttime">0</label></p>
+            <p>Peor Tiempo: <label class="worsttime">0</label></p>
+        </div>
+        <div class="rank__tematic rank__tematic--dragonBall">
+            <p>Dragon Ball<l/p>
+                <p>Mejor Tiempo: <label class="besttime">0</label></p>
+                <p>Peor Tiempo: <label class="worsttime">0</label></p>
+        </div>
+        <div class="rank__tematic rank__tematic--superHeroes">
+            <p>Super Heroes</p>
+            <p>Mejor Tiempo: <label class="besttime">0</label></p>
+            <p>Peor Tiempo: <label class="worsttime">0</label></p>
+        </div>
+    </div>
+
+    <div class="show--rank">
+        <p>Ranking</p><i class='bx bx-menu icon--open'></i>
+    </div>
+   
+</body>
+</html>
